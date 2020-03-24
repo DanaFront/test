@@ -1,0 +1,20 @@
+h3 {
+    background-color: black;
+}
+
+#elemId {
+    background-color: teal;
+}
+
+.elem-class {
+    background-color: thistle;
+}
+
+
+P {
+    background-color: yellowgreen;
+}
+
+#elemId.elem-class {
+    background-color: black;
+}

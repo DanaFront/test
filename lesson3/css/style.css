@@ -1,0 +1,76 @@
+@import url("style2.css");
+
+h3 {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+#conteiner {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+/*дочерний селктр*/
+
+p > em {
+    font-size: 30pt;
+}
+
+.class1 > .class2 {
+    font-size: 30pt;
+}
+
+/*селектор потомка*/
+
+p em {
+    color: coral;
+}
+
+#general > .red > a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+/*Соседний селектр*/
+
+p + p, b + i {
+    color: red;
+}
+
+/*родственный селектр*/
+
+b ~ i {
+    color: red;
+}
+
+/*Универсальный селктр*/
+
+* {
+    color: salmon;
+}
+
+/*Селектр атрибута*/
+
+[id] {
+    border: 10px solid black;
+}
+
+.some[id] {
+    border: 10px solid black;
+}
+
+[id="conteiner"] {
+    border: 10px solid red;
+}
+
+[href] {
+    border: 10px solid yellow;
+}
+

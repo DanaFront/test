@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lesson2</title>
+		<meta charset="utf-8">
+		<meta name="description" content="до 160 символов">
+		<meta name="keywords" content="ключевые слова">
+	</head>
+	<body>
+		<form autocomplete="on">
+			<fieldset>
+				<legend>Name</legend>
+				<label>
+					Введите текст:
+					<input type="text">
+				</label>
+				<label for="text">
+					Введите текст:
+				</label>
+				<input id="text" type="text" value="Введите текст">
+			</fieldset>
+			<fieldset>
+			<legend>Кнопка</legend>
+			<p>
+				<input type="submit">
+			</p>
+			</fieldset>
+			<fieldset>
+				<legend>Input</legend>
+				<p>
+					<input type="password" placeholder="Введите пароль" title="Подсказка">
+				</p>
+				<p>
+					<input type="search">
+				</p>
+				<p>
+					<input type="text" autofocus value="Some" pattern="Some">
+				</p>
+				<p>
+					<input type="email">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Загрузка</legend>
+				<p>
+					<input type="file" multiple accept="image/*">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Числа</legend>
+				<p>
+					<input type="number" min="6" max="150" step="10">
+				</p>
+				<p>
+					<input type="range" min="6" max="150" step="10">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Чексбоксы и радио кнопки</legend>
+				<p>
+					<label>
+						Вам есть 18?
+						<input type="checkbox" checked>
+					</label>
+				</p>
+				<p>
+					<label>
+						Man
+						<input type="radio" name="answer">
+					</label>
+				</p>
+				<p>
+					<label>
+						Woman
+						<input type="radio" name="answer">
+					</label>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Дата и время</legend>
+				<p>
+					<label>
+						Выбор времени:<input type="time" min="14:11">
+					</label>
+				</p>
+				<p>
+					<label>
+						Выбор даты:<input type="date" min="">
+					</label>
+				</p>
+				<p>
+					<label>
+						Выбор даты и времени:<input type="datetime-local" min="">
+					</label>
+				</p>
+				<p>
+					<label>
+						Выбор месяца:<input type="month">
+					</label>
+				</p>
+				<p>
+					<label>
+						Выбор недели:<input type="week" min="">
+					</label>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Цвет</legend>
+				<p>
+					<input type="color">
+				</p>
+				<legend>Скрытый</legend>
+				<p>
+					<input type="hidden" name="id" value="123">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Кнопки</legend>
+				<p>
+					<input type="reset" value="Очистить">
+					<input type="button" value="Кнопка">
+					<input type="image" src="1.jpg" height="50" width="50">
+					<button>Sent</button>
+				</p>
+
+			</fieldset>
+			<fieldset>
+				<legend>Многострочный текст</legend>
+				<p>
+					<textarea cols="5" rows="4">
+
+					</textarea>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Раскрывающийся список</legend>
+				<p>
+					<select>
+						<option>Выберете</option>
+						<optgroup label="Заголовок1">
+							<option>Вар1</option>
+						</optgroup>
+						<optgroup label="Заголовок2">
+							<option>Вар2</option>
+							<option>Вар3</option>
+						</optgroup>
+					</select>
+				</p>
+			</fieldset>
+		</form>
+	</body>
+</html>
